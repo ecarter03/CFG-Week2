@@ -1,0 +1,41 @@
+* {
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+  background-color: navy;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li:hover, a:hover {
+  background-color: paleturquoise;
+  color: navy;
+  box-shadow:navy;
+}
+
+.head {
+    background-image:url(/coffeecup.jpeg);
+    height: 300px;
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  text-align: center;
+  background-color: navy;
+  color: white;
+  padding: 20px 0px;
+}
